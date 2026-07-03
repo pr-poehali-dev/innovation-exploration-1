@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Аудит
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что я анализирую</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Анализ каналов",
+              description: "Оцениваю каждый рекламный канал: где реально приходят клиенты, а где сливается бюджет",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Воронка и конверсии",
+              description: "Разбираю путь клиента от показа до заявки и нахожу слабые места, снижающие продажи",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Метрики и цифры",
+              description: "Считаю CPL, ROAS, ДРР и другие показатели, чтобы понять реальную окупаемость рекламы",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Рекомендации",
+              description: "Даю конкретный план действий: что отключить, что усилить и как повысить эффективность",
               direction: "bottom",
             },
           ].map((service, i) => (
